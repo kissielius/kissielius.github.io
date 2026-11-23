@@ -1,0 +1,96 @@
+.section-title h2 {
+  color: #6b338c;
+}
+body {
+  --default-font: "Segoe UI", Arial, sans-serif;
+  --heading-font: Consolas, "Courier New", monospace;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1.1rem; }
+h6 { font-size: 1rem; }
+
+.section-title h2 {
+  color: #6b338c;
+  font-family: var(--heading-font);
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+#contact .btn {
+  background-color: #6b338c;
+  color: white;
+  border: 2px solid #6b338c;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-family: var(--heading-font);
+}
+
+#contact .btn:hover {
+  background-color: #52256d;
+  border-color: #52256d;
+}
+
+#contact .btn:active {
+  background-color: #3e1b53;
+  border-color: #3e1b53;
+  transform: translateY(2px);
+}
+
+.footer .credits a {
+  color: #6b338c;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.footer .credits a:hover {
+  color: #3e1b53;
+}
+#about,
+#resume,
+#portfolio {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+#about .section-title,
+#resume .section-title,
+#portfolio .section-title {
+  margin-bottom: 32px;
+  padding: 24px 18px;
+  background-color: #f7f1fa;
+  border: 1px solid #dfcce8;
+  border-radius: 16px;
+}
+
+#about .section-title p,
+#resume .section-title p,
+#portfolio .section-title p {
+  margin-bottom: 0;
+}
+#hero .col-lg-9 {
+  border-left: 4px solid #6b338c;
+  padding-left: 24px;
+}
+
+#services video,
+#services .ratio {
+  border: 2px solid #dfcce8;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+#contact .container.text-center {
+  padding: 28px 20px;
+  border: 1px solid #dfcce8;
+  border-radius: 16px;
+  background-color: #f7f1fa;
+}
